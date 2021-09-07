@@ -12,8 +12,17 @@ p
     font-family: ptext;
     color: #FFFFFF;
     font-size: 10px;
-    padding: 0 4px 0 4px;
+    padding: 0 4px 0 10px;
     margin: 0 0 5px 0;
+}
+.menutla{
+    background-color: #bf3636;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px 2px 5px 2px;
+    max-width: 30px;;
+    display:inline-block;
 }
 .padding15phone
 {
@@ -84,7 +93,7 @@ h4
 }
 .tesinasdiv
 {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 @media only screen and (max-width: 576px) {
 

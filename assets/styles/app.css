@@ -2,19 +2,111 @@
 body {
     background-color: #e1f4f6;
 }
+h1
+{
+    font-size: x-large;
+    font-family: bwhite;
+}
+p
+{
+    font-family: ptext;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 0 4px 0 4px;
+    margin: 0 0 5px 0;
+}
+.padding15phone
+{
+    padding: 0px 10px 0px 10px;
+    font-size: large;
+}
 @font-face {
     font-family: Nadpis;
-    src: url('/static/fonts/Lexend-Bold.ttf');
+    src: url('/public/static/fonts/Lexend-Bold.ttf');
+}
+@font-face {
+    font-family: bwhite;
+    src: url('/public/static/fonts/Lexend-ExtraBold.ttf');
+}
+@font-face {
+    font-family: ptext;
+    src: url('/public/static/fonts/Lexend-Regular.ttf');
+}
+h4
+{
+    font-family: Nadpis;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding-left: 10px;
 }
 .text-nadpis
 {
     font-family: Nadpis;
     color: #c03838;
+    white-space: nowrap;
+}
+.text-whiteb
+{
+    color: #FFFFFF;
+}
+.butdiv
+{
+    margin: 0;
+    padding: 0;
+    background-color: #c03535;
+}
+
+.menudiv
+{
+    background-color: #c03535;
+    border-radius: 30%;
+}
+.navig
+{
+    text-align: right;
+    display:block;
+    margin:auto;
+}
+.maincont
+{
+    background-color: #bf3636;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.divpink
+{
+    background-color: #eab5b5;
+}
+.photo-placeholder{
+    background-color: #eab5b5;
+}
+.tesinasdiv
+{
+    padding-top: 20px;
 }
 @media only screen and (max-width: 576px) {
 
     .text-nadpis {
-        font-size: smaller;
+        font-size: small;
     }
+    body
+    {
+        padding-top: 10px;
+    }
+    .divpink
+    {
+        margin-top: 10px;
+        height: 100px;
+    }
+    .photo-placeholder{
+        margin: 15px;
+        height: 200px;
 
+    }
+    .mg-top-120
+    {
+        margin-top:  120px;
+    }
 }

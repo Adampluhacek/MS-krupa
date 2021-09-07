@@ -3,8 +3,79 @@
 {% block body %}
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6 offset-1 text-nadpis">Vítejte na stránkách mateřské školy Krupá.</div>
-            <div class="col-4 float-right"><img src="./static/vyhledávání.png"></div>
+            <div class="col-6 offset-1 text-nadpis">Vítejte na stránkách<br />mateřské školy Krupá.</div>
+            <div class="col-4 navig"><div class="butdiv"><img src="{{ asset('static/menubutton.png') }}"class="img-fluid"></div></div>
+            <! --- dodelat, div neni spravne s obrazky, scale??? --->
         </div>
+        <div class="row">
+            <div class="tesinasdiv">
+                <div class="col-10 offset-1 maincont">
+                    <div class ="row">
+                        <div class="col-12">
+                            <div class="text-center tesinasdiv text-whiteb" ><h1>Těší nás, že jste zavítali právě k nám.</h1>
+                                <h3 class="padding15phone">Dopřejte svému dítěti krásně
+                                    prožitá předškolní léta,</h3>
+                                <h3  class="padding15phone">jaká si pamatujete Vy a bez
+                                    váhání jej zapište do naší
+                                    mateřské školy.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="divpink"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mg-top-120 row">
+                                <h2 class="col-12 text-whiteb text-center">O nás</h2>
+                                <div class="col-12">
+                                    <p>
+                                        Jsme malá školka na okraji vsi. Naše školka je jednotřídní s
+                                        celodenním provozem a kapacitou 24 dětí.
+                                    </p>
+                                    <p>Vyznačujeme se přátelským prostředím, které na první pohled
+                                        potěší a rozzáří nejen Vaše malé ratolesti, ale také Vás
+                                        samotné. Jsme si jisti, že ihned po první návštěvě na Vás
+                                        dopadne lehká tíha nostalgie. Postačí jen chvíle, pár pohledů a
+                                        začnete s úsměvem na tváři vzpomínat, jaké to bylo krásné a
+                                        bezstarostné docházet každý všední den do školky. Herna je
+                                        vybavena novým dětským nábytkem, nalezneme zde velké
+                                        množství hraček i pracovní koutky. Děti si mohou brát hračky
+                                        sami dle svého uvážení. Herna slouží zároveň i jako ložnice.</p>
+                                    <p>Nově budeme používat tělocvičnu, která je umístěna v prvním
+                                        patře.</p>
+                                    <p>Vedle školky je rozlehlá zahrada, která je po rekonstrukci
+                                        vybavena novými herními prvky a pískovištěm, zde si Vaše
+                                        dítka budou moci užívat her a zabavy..</p>
+                                    <! --- todo: uprava fontu--->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 mg-top-120">
+                            <h2 class="text-whiteb text-center">Novinky</h2>
+                            <h4>Fotografování v MŠ</h4>
+                            <div class="photo-placeholder"></div>
+                            <h4>Vánoční prázdniny</h4>
+                            <div class="photo-placeholder"></div>
+                            <h4>Zápis do MŠ</h4>
+                            <div class="photo-placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text center">
+                        <button class="btn btn-default">
+                            <img src="{{ asset('static/sendbutton.png') }}/>
+                        </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </div>
 {% endblock %}

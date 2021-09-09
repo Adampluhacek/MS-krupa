@@ -7,14 +7,7 @@ h1
     font-size: x-large;
     font-family: bwhite;
 }
-p
-{
-    font-family: ptext;
-    color: #FFFFFF;
-    font-size: 10px;
-    padding: 0 4px 0 10px;
-    margin: 0 0 5px 0;
-}
+
 .menutla{
     background-color: #bf3636;
     -webkit-border-radius: 5px;
@@ -40,6 +33,10 @@ p
 @font-face {
     font-family: ptext;
     src: url('/public/static/fonts/Lexend-Regular.ttf');
+}
+@font-face {
+    font-family: lexmed;
+    src: url('/public/static/fonts/Lexend-Medium.ttf');
 }
 h4
 {
@@ -71,6 +68,18 @@ h4
     background-color: #c03535;
     border-radius: 30%;
 }
+.btnblue
+{
+    background-color: #288bcb;
+    margin-top: 15px;
+    padding: 10px 30px 10px 30px;
+    color: #FFFFFF;
+    font-family: lexmed;
+}
+.btnnovinky
+{
+    padding: 10px 30px 10px 30px;
+}
 .navig
 {
     text-align: right;
@@ -84,12 +93,21 @@ h4
     -moz-border-radius: 20px;
     border-radius: 20px;
 }
+.phone-offset
+{
+    padding-left:4%;
+    padding-right: 4%;
+}
 .divpink
 {
     background-color: #eab5b5;
 }
 .photo-placeholder{
     background-color: #eab5b5;
+}
+.form-control:focus
+{
+    box-shadow: none;
 }
 .tesinasdiv
 {
@@ -114,8 +132,31 @@ h4
         height: 200px;
 
     }
+    .mg15
+    {
+        margin: 15px;
+    }
     .mg-top-120
     {
         margin-top:  120px;
     }
+    label
+    {
+        font-family: lexmed;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding-left: 4%;
+    }
+    .formtextinput {
+        border-radius: 20px;
+        border-color: #FFFFFF;
+    }
+    p
+     {
+         font-family: ptext;
+         color: #FFFFFF;
+         font-size: 10.5px;
+         padding: 0 4px 0 10px;
+         margin: 0 0 5px 0;
+     }
 }

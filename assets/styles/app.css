@@ -46,6 +46,12 @@ h4
     margin-top: 20px;
     padding-left: 10px;
 }
+.tablenadipis
+{
+    font-family: Nadpis;
+    color: #FFFFFF;
+    font-size: 15px;
+}
 .text-nadpis
 {
     font-family: Nadpis;
@@ -113,6 +119,9 @@ h4
 {
     padding-top: 10px;
 }
+tr.spaceUnder>td {
+    padding-bottom: 1em;
+}
 @media only screen and (max-width: 576px) {
 
     .text-nadpis {
@@ -151,6 +160,11 @@ h4
         border-radius: 20px;
         border-color: #FFFFFF;
     }
+    .tabletext
+    {
+        font-family: ptext;
+        color: #FFFFFF;
+    }
     p
      {
          font-family: ptext;
@@ -159,4 +173,27 @@ h4
          padding: 0 4px 0 10px;
          margin: 0 0 5px 0;
      }
+    ::placeholder
+    {
+        color: black !important;
+        font-family: lexmed;
+        font-size: 11px;
+    }
+    .tabletext
+    {
+        font-size: 14px;
+    }
+    footer{
+        background-color: #8b2727;
+        -webkit-border-bottom-right-radius: 20px;
+        -webkit-border-bottom-left-radius: 20px;
+        -moz-border-radius-bottomright: 20px;
+        -moz-border-radius-bottomleft: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 20px 0 20px 0;
+        font-family: ptext;
+        font-size: 10px;
+        color: #FFFFFF;
+    }
 }

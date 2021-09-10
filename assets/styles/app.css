@@ -38,6 +38,18 @@ h1
     font-family: lexmed;
     src: url('/public/static/fonts/Lexend-Medium.ttf');
 }
+.forpp{
+    font-family: Nadpis;
+    color: #FFFFFF;
+    font-size: 12.5px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+h5{
+    font-family: Nadpis;
+    color: #FFFFFF;
+    font-size: 18px;
+}
 h4
 {
     font-family: Nadpis;
@@ -45,6 +57,12 @@ h4
     color: #FFFFFF;
     margin-top: 20px;
     padding-left: 10px;
+}
+.forpar
+{
+    font-family: Nadpis;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 .tablenadipis
 {
@@ -82,9 +100,34 @@ h4
     color: #FFFFFF;
     font-family: lexmed;
 }
+.pforp
+{
+    font-family: ptext;
+    font-size: 12.5px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    margin-top: 4px;
+    padding-right: 21px;
+}
+.morepadright{
+    padding-right: 60px !important;
+}
+.mg-top-20{
+    margin-top: 20px;
+}
 .btnnovinky
 {
     padding: 10px 30px 10px 30px;
+}
+.btnquest
+{
+    background-color: #288bcb;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-family: lexmed;
+    font-size: 13px;
+    width: 192px;
 }
 .navig
 {
@@ -121,6 +164,12 @@ h4
 }
 tr.spaceUnder>td {
     padding-bottom: 1em;
+}
+tr.spaceAbove>td {
+    padding-top: 1em;
+}
+tr.spaceAboveSmaller>td {
+    padding-top: 0.5em;
 }
 @media only screen and (max-width: 576px) {
 
@@ -164,6 +213,18 @@ tr.spaceUnder>td {
     {
         font-family: ptext;
         color: #FFFFFF;
+    }
+    .pricetext {
+        font-size: 12.5px;
+        padding-left: 1em;
+        font-family: ptext;
+        color: #FFFFFF;
+    }
+    .pricenum{
+        padding-left: 3em;
+        font-family: ptext;
+        color: #FFFFFF;
+        font-size: 12.5px;
     }
     p
      {

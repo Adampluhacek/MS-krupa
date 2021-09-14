@@ -3,12 +3,9 @@
 
     <div class="container-fluid">
     <div class="row">
-        <div class="col-6 offset-1 text-nadpis">Vítejte na stránkách<br/>mateřské školy Krupá.</div>
-        <div class="col-4 navig"><img src="{{ asset("/static/menubutton.png") }}" class="menutla">
-            <img src="{{ asset("/static/menubutton.png") }}" class="menutla"></div>
-        <! --- dodelat, div neni spravne s obrazky, scale???-nesedi --->
+        {% include '/frontend/nav.html.twig' %}
     </div>
-    <div class="row phone-offset">
+    <div class="row phone-offset mg-top-nav">
         <div class="tesinasdiv">
             <div class="col-12 offset-0 maincont">
                 <div class="row">

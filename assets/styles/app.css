@@ -2,117 +2,161 @@
 body {
     background-color: #e1f4f6;
 }
-h1
-{
+
+h1 {
     font-size: x-large;
     font-family: bwhite;
 }
 
-.menutla{
+.menutla {
     background-color: #bf3636;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     padding: 5px 2px 5px 2px;
     max-width: 30px;;
-    display:inline-block;
+    display: inline-block;
 }
-.padding15phone
-{
+
+.padding15phone {
     padding: 0px 10px 0px 10px;
     font-size: large;
 }
+
 @font-face {
     font-family: Nadpis;
     src: url('/public/static/fonts/Lexend-Bold.ttf');
 }
+
 @font-face {
     font-family: bwhite;
     src: url('/public/static/fonts/Lexend-ExtraBold.ttf');
 }
+
 @font-face {
     font-family: ptext;
     src: url('/public/static/fonts/Lexend-Regular.ttf');
 }
+
 @font-face {
     font-family: lexmed;
     src: url('/public/static/fonts/Lexend-Medium.ttf');
 }
-.forpp{
+@font-face {
+    font-family: almostbold;
+    src: url('/public/static/fonts/Lexend-SemiBold.ttf');
+}
+.forpp {
     font-family: Nadpis;
     color: #FFFFFF;
     font-size: 12.5px;
     padding-left: 25px;
     padding-right: 20px;
 }
-.text-right{
+
+.text-right {
     font-family: ptext;
     font-size: 12.5px;
     color: #FFFFFF;
     text-align: right;
     margin-top: 4px;
 }
-h5{
+.navbar{
+    overflow: scroll;
+}
+h5 {
     font-family: Nadpis;
     color: #FFFFFF;
     font-size: 18px;
 }
-h4
-{
+
+h4 {
     font-family: Nadpis;
     font-size: 15px;
     color: #FFFFFF;
     margin-top: 20px;
     padding-left: 10px;
 }
-.forpar
-{
+
+.forpar {
     font-family: Nadpis;
     padding-top: 3em;
     padding-bottom: 3em;
 }
-.tablenadipis
-{
+
+.tablenadipis {
     font-family: Nadpis;
     color: #FFFFFF;
     font-size: 15px;
 }
-.text-nadpis
-{
+
+.text-nadpis {
     font-family: Nadpis;
     color: #c03838;
     white-space: nowrap;
 }
-.text-whiteb
-{
-    color: #FFFFFF;
+
+.text-whiteb {
+    color: #FFFFFF !important;
 }
-.butdiv
-{
+
+.butdiv {
     margin: 0;
     padding: 0;
     background-color: #c03535;
 }
 
-.menudiv
-{
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #e1f4f6;
+}
+.mg-top-nav{
+    margin-top: 60px !important;
+}
+.navbar-collapse{
+    height: calc(100vh - 20px) !important;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family: almostbold;
+    font-size: 30px;
+    color: #FFFFFF !important;
+}
+
+.nav-item-first{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nav-item-last{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #c03535 !important;
+    height: 90%;
+}
+.menudiv {
     background-color: #c03535;
     border-radius: 30%;
 }
-.mg-top-50
-{
+.mg-top-15per{
+    margin-top: 15%;
+}
+
+.mg-top-50 {
     margin-top: 50px;
 }
-.btnblue
-{
+
+.btnblue {
     background-color: #288bcb;
     margin-top: 15px;
     padding: 10px 30px 10px 30px;
     color: #FFFFFF;
     font-family: lexmed;
 }
-.pforp
-{
+
+.pforp {
     font-family: ptext;
     font-size: 12.5px;
     color: #FFFFFF;
@@ -120,18 +164,20 @@ h4
     margin-top: 4px;
     padding-right: 21px;
 }
-.morepadright{
+
+.morepadright {
     padding-right: 60px !important;
 }
-.mg-top-20{
+
+.mg-top-20 {
     margin-top: 20px;
 }
-.btnnovinky
-{
+
+.btnnovinky {
     padding: 10px 30px 10px 30px;
 }
-.btnquest
-{
+
+.btnquest {
     background-color: #288bcb;
     color: #FFFFFF;
     margin-top: 20px;
@@ -140,122 +186,153 @@ h4
     font-size: 13px;
     width: 192px;
 }
-.navig
-{
+
+.navig {
     text-align: right;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
-.maincont
-{
+
+.maincont {
     background-color: #bf3636;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
 }
-.phone-offset
-{
-    padding-left:4%;
+
+.phone-offset {
+    padding-left: 4%;
     padding-right: 4%;
 }
-.divpink
-{
+
+.divpink {
     background-color: #eab5b5;
 }
-.photo-placeholder{
+
+.photo-placeholder {
     background-color: #eab5b5;
 }
-.form-control:focus
-{
+
+.form-control:focus {
     box-shadow: none;
 }
-.tesinasdiv
-{
+
+.tesinasdiv {
     padding-top: 10px;
 }
-tr.spaceUnder>td {
+
+tr.spaceUnder > td {
     padding-bottom: 1em;
 }
-tr.spaceAbove>td {
+
+tr.spaceAbove > td {
     padding-top: 1em;
 }
-tr.spaceAboveSmaller>td {
+
+tr.spaceAboveSmaller > td {
     padding-top: 0.5em;
 }
+
+.pic {
+    border: solid 10px;
+    border-color: #bf3636;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.mg-lr-10 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
 @media only screen and (max-width: 576px) {
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px;
+    }
 
     .text-nadpis {
         font-size: small;
     }
-    body
-    {
+
+    body {
         padding-top: 10px;
     }
-    .divpink
-    {
+
+    .divpink {
         margin-top: 10px;
         height: 100px;
     }
-    .photo-placeholder{
+
+    .photo-placeholder {
         margin: 15px;
         height: 200px;
 
     }
-    .mg15
-    {
+
+    .mg15 {
         margin: 15px;
     }
-    .mg-top-120
-    {
-        margin-top:  120px;
+
+    .mg-top-120 {
+        margin-top: 120px;
     }
-    label
-    {
+
+    label {
         font-family: lexmed;
         font-size: 12px;
         color: #FFFFFF;
         padding-left: 4%;
     }
+
     .formtextinput {
         border-radius: 20px;
         border-color: #FFFFFF;
     }
-    .tabletext
-    {
+
+    .tabletext {
         font-family: ptext;
         color: #FFFFFF;
     }
+
     .pricetext {
         font-size: 12.5px;
         padding-left: 1em;
         font-family: ptext;
         color: #FFFFFF;
     }
-    .pricenum{
+
+    .pricenum {
         padding-left: 3em;
         font-family: ptext;
         color: #FFFFFF;
         font-size: 12.5px;
     }
-    p
-     {
-         font-family: ptext;
-         color: #FFFFFF;
-         font-size: 10.5px;
-         padding: 0 4px 0 10px;
-         margin: 0 0 5px 0;
-     }
-    ::placeholder
-    {
+
+    p {
+        font-family: ptext;
+        color: #FFFFFF;
+        font-size: 10.5px;
+        padding: 0 4px 0 10px;
+        margin: 0 0 5px 0;
+    }
+
+    ::placeholder {
         color: black !important;
         font-family: lexmed;
         font-size: 11px;
     }
-    .tabletext
-    {
+
+    .tabletext {
         font-size: 14px;
     }
-    footer{
+
+    footer {
         background-color: #8b2727;
         -webkit-border-bottom-right-radius: 20px;
         -webkit-border-bottom-left-radius: 20px;

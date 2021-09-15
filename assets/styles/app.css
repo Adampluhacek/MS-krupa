@@ -61,6 +61,11 @@ h1 {
     text-align: right;
     margin-top: 4px;
 }
+.text-day{
+    font-family: almostbold;
+    color: #FFFFFF;
+    font-size: 18px;
+}
 .navbar{
     overflow: scroll;
 }
@@ -143,7 +148,19 @@ h4 {
 .mg-top-15per{
     margin-top: 15%;
 }
-
+.icon-menu{
+    background-size: cover;
+    height: 15px;
+    width: auto;
+    float: right;
+}
+.menu-day{
+    border-bottom: solid white 2px;
+    margin: 20px 1em 0 1em;
+}
+.blbl{
+    display: inline;
+}
 .mg-top-50 {
     margin-top: 50px;
 }

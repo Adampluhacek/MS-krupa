@@ -8,13 +8,64 @@
         <div class="row phone-offset mg-top-nav">
             <div class="tesinasdiv">
                 <div class="col-12 offset-0 maincont">
+                    <div class="text-center text-whiteb forpar">
+                        <h2>Jídelníček</h2>
+                    </div>
+
                     <div class="row">
-                        <div class="col-12 text-center text-whiteb forpar">
-                            <h2>Jídelníček</h2>
+                        <div class="col-12">
+                            <div class="menu-day text-day">
+                                Pondělí 10.5.<img id="img-jedna" src="{{ asset ("/static/slice6.png") }}"
+                                                  class="icon-menu">
+                            </div>
                         </div>
-
-
-
+                        <div id="p-jedna">
+                            <table>
+                                <tr>
+                                    <td>
+                                        Přesnídávka
+                                    </td>
+                                    <td>
+                                        Chléb, plátkový sýr, zelenina,
+                                        granko 1,3,7
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="menu-day text-day">
+                                Úterý 11.5<img id="img-dva" src="{{ asset ("/static/slice6.png") }}" class="icon-menu">
+                            </div>
+                        </div>
+                        <p id="p-dva">asdaskjdhas</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="menu-day text-day">
+                                Středa 12.5.<img id="img-tri" src="{{ asset ("/static/slice6.png") }}"
+                                                 class="icon-menu">
+                            </div>
+                        </div>
+                        <p id="p-tri">asdaskjdhas</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="menu-day text-day">
+                                Čtvrtek 13.5.<img id="img-ctyri" src="{{ asset ("/static/slice6.png") }}"
+                                                  class="icon-menu">
+                            </div>
+                        </div>
+                        <p id="p-ctyri">asdaskjdhas</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="menu-day text-day">
+                                Pátek 14.5.<img id="img-pet" src="{{ asset ("/static/slice6.png") }}" class="icon-menu">
+                            </div>
+                        </div>
+                        <p id="p-pet">asdaskjdhas</p>
                     </div>
                     <div class="row">
                         <div class="col-12 text-center mg-top-50">
@@ -27,4 +78,22 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+        $("#img-jedna").click(function () {
+            $("#p-jedna").toggle("slow");
+        });
+        $("#img-dva").click(function () {
+            $("#p-dva").toggle("slow");
+        });
+        $("#img-tri").click(function () {
+            $("#p-tri").toggle("slow");
+        });
+        $("#img-ctyri").click(function () {
+            $("#p-ctyri").toggle("slow");
+        });
+        $("#img-pet").click(function () {
+            $("#p-pet").toggle("slow");
+        });
+    </script>
 {% endblock %}

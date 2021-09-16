@@ -46,6 +46,16 @@ h1 {
     font-family: almostbold;
     src: url('/public/static/fonts/Lexend-SemiBold.ttf');
 }
+.alergen-text{
+    font-family: Nadpis;
+    color: #FFFFFF;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.alergens{
+    font-family: ptext;
+    font-size: 12px;
+}
 .forpp {
     font-family: Nadpis;
     color: #FFFFFF;
@@ -53,7 +63,17 @@ h1 {
     padding-left: 25px;
     padding-right: 20px;
 }
-
+.menu-text-dish{
+font-family: Nadpis;
+    font-size: 12px;
+    padding: 0 0 0 18px;
+}
+.menu-text-food{
+    font-family: ptext;
+    font-size: 12.5px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
 .text-right {
     font-family: ptext;
     font-size: 12.5px;
@@ -154,9 +174,16 @@ h4 {
     width: auto;
     float: right;
 }
+.float-right{
+    float: right;
+}
 .menu-day{
     border-bottom: solid white 2px;
-    margin: 20px 1em 0 1em;
+    margin: 20px 18px 0 18px;
+}
+.mg-left-18
+{
+    margin-left:18px ;
 }
 .blbl{
     display: inline;
@@ -251,16 +278,28 @@ tr.spaceAboveSmaller > td {
 }
 
 .pic {
-    border: solid 10px;
     border-color: #bf3636;
 }
 
 .pic img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: scale-down;
 }
-
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+.navbar-toggler{
+    background-color: #c03535;
+    padding: 2px;
+    border-radius: 8px;
+}
+.navbar-light{
+    border: 0px;
+}
+.navbar-toggler{
+    border: 0px;
+}
 .mg-lr-10 {
     margin-left: 10px !important;
     margin-right: 10px !important;
@@ -270,7 +309,9 @@ tr.spaceAboveSmaller > td {
     .photo-gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 0px;
+        grid-gap: 10px;
+        border: solid 10px;
+        border-color: transparent;
     }
 
     .text-nadpis {
@@ -280,7 +321,7 @@ tr.spaceAboveSmaller > td {
     body {
         padding-top: 10px;
     }
-
+    
     .divpink {
         margin-top: 10px;
         height: 100px;

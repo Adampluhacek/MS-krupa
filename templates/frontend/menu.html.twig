@@ -22,12 +22,38 @@
                         <div id="p-jedna">
                             <table>
                                 <tr>
-                                    <td>
+                                    <td class="menu-text-dish text-whiteb">
                                         Přesnídávka
                                     </td>
-                                    <td>
+                                    <td class="menu-text-food">
                                         Chléb, plátkový sýr, zelenina,
                                         granko 1,3,7
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text-dish text-whiteb">
+                                        Polévka
+                                    </td>
+                                    <td class="menu-text-food">
+                                        Pórková 1,3,7
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text-dish text-whiteb">
+                                        Oběd
+                                    </td>
+                                    <td class="menu-text-food">
+                                        Kynutý knedlík, jahodová
+                                        omáčka, štáva 1,3,7
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text-dish text-whiteb">
+                                        Svačina
+                                    </td>
+                                    <td class="menu-text-food">
+                                        Kaiserka, zeleninová
+                                        pomazánka, zelenina, čaj 1,3,7
                                     </td>
                                 </tr>
                             </table>
@@ -39,7 +65,45 @@
                                 Úterý 11.5<img id="img-dva" src="{{ asset ("/static/slice6.png") }}" class="icon-menu">
                             </div>
                         </div>
-                        <p id="p-dva">asdaskjdhas</p>
+                        <div id="p-dva">
+                            <table>
+                                <tr>
+                                    <td class="menu-text-dish text-whiteb">
+                                        Přesnídávka
+                                    </td>
+                                    <td class="menu-text-food">
+                                        Chléb, plátkový sýr, zelenina,
+                                        granko 1,3,7
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text-dish text-whiteb">
+                                        Polévka
+                                    </td>
+                                    <td class="menu-text-food">
+                                        Pórková 1,3,7
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text-dish text-whiteb">
+                                        Oběd
+                                    </td>
+                                    <td class="menu-text-food">
+                                        Kynutý knedlík, jahodová
+                                        omáčka, štáva 1,3,7
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text-dish text-whiteb">
+                                        Svačina
+                                    </td>
+                                    <td class="menu-text-food">
+                                        Kaiserka, zeleninová
+                                        pomazánka, zelenina, čaj 1,3,7
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
@@ -68,7 +132,28 @@
                         <p id="p-pet">asdaskjdhas</p>
                     </div>
                     <div class="row">
-                        <div class="col-12 text-center mg-top-50">
+                        <div class="col-11 mg-left-18 text-whiteb mg-top-20 alergen-text">
+                            Každé jídlo obsahuje alergeny, které jsou uvedeny
+                            v číslech u každého pokrmu.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mg-left-18 text-whiteb alergens">
+                            <u>Alergeny</u>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mg-left-18 text-whiteb alergen-text">
+                            Pitný režim po celý den, voda, šťáva, džus, čaj.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 mg-left-18 text-whiteb alergen-text">
+                            Změny v jídelníčku jsou přípustné!
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
                             <footer>
                                 © 2021 Všechna práva vyhrazena.
                             </footer>
@@ -94,6 +179,14 @@
         });
         $("#img-pet").click(function () {
             $("#p-pet").toggle("slow");
+        });
+        $( document ).ready(function() {
+            $("#p-ctyri").toggle();
+            $("#p-pet").toggle();
+            $("#p-tri").toggle();
+            $("#p-dva").toggle();
+            $("#p-jedna").toggle();
+
         });
     </script>
 {% endblock %}
